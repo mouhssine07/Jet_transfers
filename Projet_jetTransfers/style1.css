@@ -1,0 +1,60 @@
+.container_airpot {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.airport_maroc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.airport_maroc > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10%;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.airport_maroc > img:hover {
+  transform: scale(2);
+  z-index: 10;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .airport_maroc > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .airport_maroc > img:hover {
+    transform: scale(1.5);
+  }
+}
+
+@media (max-width: 480px) {
+  .airport_maroc > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .airport_maroc > img:hover {
+    transform: scale(1.3);
+  }
+}
