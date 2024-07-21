@@ -280,11 +280,11 @@ ul#first_list li:hover ul {
   padding: 20px;
   box-sizing: border-box;
   color: #fff;
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
+  /* border-right: 2px solid #fff;
+  border-left: 2px solid #fff; */
   position: relative;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -2px -10px 10px 10px #000;
   background: rgba(15, 8, 2, 0.5);
   left: 20%;
 }
@@ -1729,6 +1729,7 @@ nav > .phone-call > a > button:hover {
     top: 21px;
     width: 100%;
     overflow: hidden;
+    border: none;
   }
   #flech-11 {
     position: relative;
@@ -1753,8 +1754,8 @@ nav > .phone-call > a > button:hover {
     padding: 20px;
     box-sizing: border-box;
     color: #fff;
-    border-right: 2px solid #fff;
-    border-left: 2px solid #fff;
+    /* border-right: 2px solid #fff;
+    border-left: 2px solid #fff; */
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
