@@ -1186,14 +1186,20 @@ nav > .phone-call > a > button:hover {
   font-size: 14px;
   line-height: 1.8em;
 }
+.full-information > a {
+  display: block;
+  text-align: center;
+  margin-top: 3em;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
 .full-information > a > button {
   padding: 15px 40px;
   font-size: 16px;
   font-weight: 900;
-  text-decoration: none;
   transition: all 0.3s ease-in-out;
-  margin: 3em;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .full-information > a > button:hover {
   background: #0a182d;
@@ -2034,10 +2040,20 @@ nav > .phone-call > a > button:hover {
     padding-left: 1em;
   }
 
+  .full-information > a {
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
   .full-information > a > button {
-    padding: 10px 30px;
-    font-size: 14px;
-    margin: 2em 0;
+    padding: 15px 40px;
+    font-size: 13px;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
   }
   .plane {
     margin-left: 0;
